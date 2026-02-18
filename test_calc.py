@@ -1,2 +1,4 @@
-print("Forcing failure")
-exit(1)
+from calc import add
+
+def test_add():
+    assert add(2, 3) == 6
